@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+
+    
+  
+  <title>{{ pais.nome }}</title>
+</head>
+<body>
+  <h1>{{ pais.nome }}</h1>
+  <img src="{{ pais.bandeira }}" alt="Bandeira de {{ pais.nome }}" width="200">
+  <p><strong>Capital:</strong> {{ pais.capital }}</p>
+  <p><strong>Língua:</strong> {{ pais.lingua }}</p>
+  <p>{{ pais.descricao }}</p>
+  <a href="/">← Voltar</a>
+</body>
+</html>

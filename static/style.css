@@ -1,0 +1,13 @@
+body {
+background-color: rgb(10, 66, 112);
+
+color: rgb(255, 255, 255);
+}
+a{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgba(253, 253, 253, 0.637);
+    text-decoration: underline;
+    text-decoration-color: rgb(0, 255, 0);
+}
+
+
